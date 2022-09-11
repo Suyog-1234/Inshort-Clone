@@ -1,0 +1,48 @@
+
+.content{
+      width:100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 100px;
+      z-index: -1;
+}
+.content .DownBar{
+     width: 105%;
+     height: 48px;
+     background-color: #f44336;
+     display: flex;
+     align-items: center;
+}
+.DownBar span{
+      margin-left: 30px;
+      font-size: 14px;
+      color: white;
+      font-weight: 100;
+      font-weight: 400;
+}
+.DownBar .inner{
+       display: flex;
+       align-items: center;
+       padding-left: 160px;
+}
+.DownBar .inner img{
+     width: 128px;
+     margin: 0px 10px;
+}
+.loadmoreBtn{
+      padding: 7px 25px;
+       background-color: white;
+       box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16),0px 2px 10px 0px rgba(0,0,0,0.12);
+       outline: none;
+       cursor: pointer;
+       border: none;
+       margin-top: 20px;
+       margin-bottom: 20px;
+}
+@media(max-width:995px){
+       .content .DownBar{
+             display: none;
+       }
+}
